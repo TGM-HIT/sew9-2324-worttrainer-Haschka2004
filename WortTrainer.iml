@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/WortTrainer/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/WortTrainer/build" />
     </content>
-    <orderEntry type="jdk" jdkName="21 (2)" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
