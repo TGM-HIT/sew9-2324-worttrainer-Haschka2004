@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/WortTrainer.iml" filepath="$PROJECT_DIR$/WortTrainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WortTrainer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/WortTrainer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WortTrainer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/WortTrainer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sew9-2324-worttrainer-Haschka2004.iml" filepath="$PROJECT_DIR$/.idea/sew9-2324-worttrainer-Haschka2004.iml" />
     </modules>
   </component>
