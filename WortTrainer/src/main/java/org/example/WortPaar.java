@@ -7,15 +7,16 @@ public class WortPaar {
 	private String wort;
 
 	public WortPaar(String url, String wort) {
-
+		this.url = url;
+		this.wort = wort;
 	}
 
 	public String getURL() {
-		return null;
+		return this.url;
 	}
 
 	public String getWort() {
-		return null;
+		return this.getWort();
 	}
 
 }
