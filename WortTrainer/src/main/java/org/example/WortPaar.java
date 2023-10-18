@@ -10,7 +10,7 @@ public class WortPaar {
 	private String url;
 
 	private String wort;
-	public WortPaar(String url, String wort) {
+	public WortPaar(String wort,String url) {
 		this.url = url;
 		this.wort = wort;
 	}
