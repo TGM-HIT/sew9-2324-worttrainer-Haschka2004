@@ -47,12 +47,17 @@ public class Rechtschreibtrainer {
 
 		int index = 0;
 
-	while(true){
+	while(!(index+1 > wortPaare.size())){
 
 		URL url = new URL(wortPaare.get(index).getURL());
 		Icon bildIcon = new ImageIcon(url);
 		String inputValue = (String) JOptionPane.showInputDialog(null,"Was siehst du?","Bilderratespiel", JOptionPane.QUESTION_MESSAGE,bildIcon,null,"Standardwert");
-		if(inputValue.equals(wortPaare.get(index).getWort())) index += 1;
+		if(inputValue.equals(wortPaare.get(index).getWort())) { index += 1; errateneWortpaare += 1; }
+		else {
+			fehler += 1;
+		}
+		JOptionPane.showMessageDialog(null,this.statistik());
+		if(index+1 > wortPaare.size())  JOptionPane.showMessageDialog(null,"Gut gemacht starte eine neue Runde!");
 	}
 
 	}
@@ -62,7 +67,7 @@ public class Rechtschreibtrainer {
 	 * @return, gibt die Menge an Fehlern und richtig erratenen zurück.
 	 */
 	public String statistik() {
-		return "Du hast: " + getFehler() + " und " + "richtig Erratene: " + getErrateneWortpaare() + ".";
+		return "Du hast: " + getFehler() + "fehler gemacht und " + "richtig Erratene: " + getErrateneWortpaare() + ".";
 	}
 
 	/**
