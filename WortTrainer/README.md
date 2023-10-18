@@ -22,3 +22,10 @@ Klasse dann speichert.
 
 Der Rechtschreibtrainer hat eine Aggregation zu WortPaar, da der Rechtschreibtrainer eine ArrayList 
 aus Wortpaaren hat, welcher er benötigt, um die Spiellogik zu implementieren. 
+
+
+Errors:
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+Beim Versuch die Methode Runde aufzurufen, hatte ich kurzzeitig ein StackOverflow, da ich versuche
+in getWort() getWort() returne, was dazu führt, dass sie sich unendlich oft aufruft.

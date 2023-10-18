@@ -20,7 +20,7 @@ public class WortPaar {
 	}
 
 	public String getWort() {
-		return this.getWort();
+		return this.wort;
 	}
 
 }

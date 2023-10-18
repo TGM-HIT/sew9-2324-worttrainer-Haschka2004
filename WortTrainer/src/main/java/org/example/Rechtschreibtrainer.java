@@ -45,14 +45,14 @@ public class Rechtschreibtrainer {
 	 */
 	public void spiel() throws MalformedURLException {
 
-		int rundenzaehler = 0;
+		int index = 0;
 
 	while(true){
 
-		URL url = new URL(wortPaare.get(1).getURL());
+		URL url = new URL(wortPaare.get(index).getURL());
 		Icon bildIcon = new ImageIcon(url);
-		JOptionPane.showInputDialog(null,"Was siehst du?","Bilderratespiel", JOptionPane.QUESTION_MESSAGE,bildIcon,null,"Standardwert");
-
+		String inputValue = (String) JOptionPane.showInputDialog(null,"Was siehst du?","Bilderratespiel", JOptionPane.QUESTION_MESSAGE,bildIcon,null,"Standardwert");
+		if(inputValue.equals(wortPaare.get(index).getWort())) index += 1;
 	}
 
 	}
