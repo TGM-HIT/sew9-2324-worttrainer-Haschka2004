@@ -7,6 +7,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * Die Klasse ist zuständig, dass der Zustand des Rechtschreibtrainers persistent, als JSON File
+ * gespeichert wird.
+ */
 public class JSONPersistent implements PersistenteSpeicherung {
 
 	/**
