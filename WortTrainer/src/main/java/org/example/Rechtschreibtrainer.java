@@ -1,5 +1,8 @@
 package org.example;
 
+import javax.swing.*;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -35,9 +38,22 @@ public class Rechtschreibtrainer {
 		return wortPaare.get(zufallsIndex.nextInt(wortPaare.size()));
 	}
 
-	public void spiel() {
+	/**
+	 * Spiellogik: Bilder und Eingabefenster werden angezeigt. Des Weiteren wird die Eingabe mit dem Wort überprüft. Sollte das Wort stimmen,
+	 * wir ein neus angezeigt. Ist die Session zu Ende, wird der Zustand des Objekts gespeichert. Außerdem wird die Statistik nachverfolgt.
+	 * @throws MalformedURLException
+	 */
+	public void spiel() throws MalformedURLException {
 
+		int rundenzaehler = 0;
 
+	while(true){
+
+		URL url = new URL(wortPaare.get(1).getURL());
+		Icon bildIcon = new ImageIcon(url);
+		JOptionPane.showInputDialog(null,"Was siehst du?","Bilderratespiel", JOptionPane.QUESTION_MESSAGE,bildIcon,null,"Standardwert");
+
+	}
 
 	}
 
