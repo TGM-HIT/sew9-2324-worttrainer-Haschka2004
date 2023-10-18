@@ -9,7 +9,7 @@ Wort-Bild-Paaren, dem aktuell ausgewählten Paar (falls vorhanden) sowie der akt
 gespeichert. Des Weiteren soll die Speicherstrategie austauschbar sein.
 
 Das zugehörige UML sieht wie folgt aus:
-![img_2.png](img_2.png)
+![img_5.png](img_5.png)
 Um die Austauschbarkeit, der Speicherstrategie zu gewährleisten, habe ich ein Strategy Pattern 
 an eingebaut. Möchte man statt JSON in XML speichern, muss man nur eine eigene Klasse erstellen 
 und keinen Code ändern. 

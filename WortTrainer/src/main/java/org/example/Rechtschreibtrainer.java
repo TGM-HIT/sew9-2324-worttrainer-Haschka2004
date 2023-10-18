@@ -41,7 +41,7 @@ public class Rechtschreibtrainer {
 	/**
 	 * Spiellogik: Bilder und Eingabefenster werden angezeigt. Des Weiteren wird die Eingabe mit dem Wort überprüft. Sollte das Wort stimmen,
 	 * wir ein neus angezeigt. Ist die Session zu Ende, wird der Zustand des Objekts gespeichert. Außerdem wird die Statistik nachverfolgt.
-	 * @throws MalformedURLException
+	 * @throws MalformedURLException, wird geworfen, wenn die URL ungültig ist.
 	 */
 	public void spiel() throws MalformedURLException {
 
