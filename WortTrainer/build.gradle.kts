@@ -15,11 +15,10 @@ dependencies {
 }
 dependencies {
 
-    // https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path
-    implementation("com.jayway.jsonpath:json-path:2.8.0")
-
     //GSON ist eine Bibliothek zum Schreiben und Lesen
-    implementation("com.google.code.gson:gson:2.8.8")
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation("com.google.code.gson:gson:2.10.1")
+
 
 
 

@@ -32,3 +32,5 @@ in getWort() getWort() returne, was dazu führt, dass sie sich unendlich oft auf
 
 ![img_6.png](img_6.png)
 ![img_7.png](img_7.png)
+Der Fehler ist aufgetreten, weil ich in der Rechtschreibtrainer Klasse ein JSONPersistent Objekt
+bereits hatte und ich in der Main ein eigenes extra aufgerufen habe.

@@ -15,6 +15,7 @@ public class JSONPersistent implements PersistenteSpeicherung {
 	 * @return gibt true zurück, wenn es gespeichert wurde und false, wenn nicht.
 	 * @throws IOException, falls mögliche Fehler beim Lesen oder Schreiben der JSON Datei auftreten.
 	 */
+	@Override
 	public boolean speichern(Rechtschreibtrainer letzterZustand) throws IOException {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
@@ -31,6 +32,7 @@ public class JSONPersistent implements PersistenteSpeicherung {
 	 * Entnimmt dem JSON File den Rechtschreibtrainer und gibt ihn zurück.
 	 * @return gibt den Rechtschreibtrainer zurück.
 	 */
+	@Override
 	public Rechtschreibtrainer letzterZustand() {
 		Gson gson = new Gson();
 		try(FileReader fileReader = new FileReader("C:/Users/alexa/Desktop/JavaH/GIT-WortTrainer/letzterZustand.json")){
