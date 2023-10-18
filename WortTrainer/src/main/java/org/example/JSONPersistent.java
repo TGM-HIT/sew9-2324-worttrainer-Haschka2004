@@ -19,7 +19,7 @@ public class JSONPersistent implements PersistenteSpeicherung {
 	public boolean speichern(Rechtschreibtrainer letzterZustand) throws IOException {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-		try(FileWriter fileWriter = new FileWriter("letzterZustand.json")){
+		try(FileWriter fileWriter = new FileWriter("LetzterZustand.json")){
 			gson.toJson(letzterZustand,fileWriter);
 			return true;
 		}catch(IOException e){
@@ -35,7 +35,7 @@ public class JSONPersistent implements PersistenteSpeicherung {
 	@Override
 	public Rechtschreibtrainer letzterZustand() {
 		Gson gson = new Gson();
-		try(FileReader fileReader = new FileReader("C:/Users/alexa/Desktop/JavaH/GIT-WortTrainer/letzterZustand.json")){
+		try(FileReader fileReader = new FileReader("LetzterZustand.json")){
             return gson.fromJson(fileReader, Rechtschreibtrainer.class);
 		}catch(IOException e){
 			e.printStackTrace();

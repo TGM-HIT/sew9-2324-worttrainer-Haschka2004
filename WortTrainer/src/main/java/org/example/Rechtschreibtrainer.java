@@ -15,8 +15,8 @@ public class Rechtschreibtrainer {
 
 	private ArrayList<WortPaar> wortPaare;
 
-	public Rechtschreibtrainer(){
 
+	public Rechtschreibtrainer(){
 		wortPaare = new ArrayList<>();
 		fehler = 0;
 		errateneWortpaare = 0;
