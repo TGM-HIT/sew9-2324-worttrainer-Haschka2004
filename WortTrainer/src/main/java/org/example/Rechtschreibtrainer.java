@@ -7,6 +7,11 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * @author Alexander Haschka
+ * @version 2023-10-18
+ * Diese Klasse die komplette Spiellogik implementieren.
+ */
 public class Rechtschreibtrainer {
 
 	private int fehler;
