@@ -29,3 +29,6 @@ Errors:
 ![img_4.png](img_4.png)
 Beim Versuch die Methode Runde aufzurufen, hatte ich kurzzeitig ein StackOverflow, da ich versuche
 in getWort() getWort() returne, was dazu führt, dass sie sich unendlich oft aufruft.
+
+![img_6.png](img_6.png)
+![img_7.png](img_7.png)

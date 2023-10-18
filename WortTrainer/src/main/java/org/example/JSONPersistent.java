@@ -33,9 +33,8 @@ public class JSONPersistent implements PersistenteSpeicherung {
 	 */
 	public Rechtschreibtrainer letzterZustand() {
 		Gson gson = new Gson();
-		try(FileReader fileReader = new FileReader("letzterZustand.json")){
-			Rechtschreibtrainer rt = gson.fromJson(fileReader, Rechtschreibtrainer.class);
-			return rt;
+		try(FileReader fileReader = new FileReader("C:/Users/alexa/Desktop/JavaH/GIT-WortTrainer/letzterZustand.json")){
+            return gson.fromJson(fileReader, Rechtschreibtrainer.class);
 		}catch(IOException e){
 			e.printStackTrace();
 		}
