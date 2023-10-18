@@ -1,7 +1,6 @@
 {
-  "speicher": {},
   "fehler": 0,
-  "errateneWortpaare": 4,
+  "errateneWortpaare": 5,
   "wortPaare": [
     {
       "url": "https://imgs.search.brave.com/cQyVVawhlQSjv9tiCojFYkUdnIN5pDDsj084GmlXxSg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cx/Lndkci5kZS9mZXJu/c2VoZW4vdGllcmUt/c3VjaGVuLWVpbi16/dWhhdXNlL2tsZWlu/ZS1odW5kZS0xMTh-/X3YtZ3NlYXByZW1p/dW14bC5qcGc",
@@ -18,6 +17,10 @@
     {
       "url": "https://imgs.search.brave.com/cZ1YrokSyRi6_MmhR01oISHbb5rEb467UICpEkeZdZk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/d3dmLmRlL2ZpbGVh/ZG1pbi9fcHJvY2Vz/c2VkXy9hLzQvY3Nt/XzM1MC1ISV8xMTE3/NTQtV2Vpc3Nlci1I/YWktX2NfLVdpbGRs/aWZlLVBpY3R1cmVz/LUplcm9tZS1NYWxs/ZWZldC1XV0YtQ2Fu/b25fZDQ0ZGZjZTU1/Yi5qcGc",
       "wort": "Hai"
+    },
+    {
+      "url": "https://imgs.search.brave.com/-HcNdev-8CchOimS6ETAsk_6Q_ZfKs9G0pNmmyW3EQ4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8w/LzAyL1N0aWxsZXNf/TWluZXJhbHdhc3Nl/ci5qcGc",
+      "wort": "Wasser"
     }
   ]
 }
