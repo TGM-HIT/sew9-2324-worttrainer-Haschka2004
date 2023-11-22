@@ -20,7 +20,6 @@ public class Rechtschreibtrainer {
 
 	private ArrayList<WortPaar> wortPaare;
 
-
 	public Rechtschreibtrainer(){
 		wortPaare = new ArrayList<>();
 		fehler = 0;
@@ -37,6 +36,10 @@ public class Rechtschreibtrainer {
 		return null;
 	}
 
+	/**
+	 * Wählt zufällig ein Wortpaar aus.
+	 * @return gib das zufällig ausgewählte Wortpaar zurück.
+	 */
 	public WortPaar zufallsWortPaar() {
 		Random zufallsIndex = new Random();
 		return wortPaare.get(zufallsIndex.nextInt(wortPaare.size()));
@@ -87,11 +90,18 @@ public class Rechtschreibtrainer {
 		return false;
 	}
 
-
+	/**
+	 * Gibt die Anzahl der erratenen Wortpaaren zurück.
+	 * @return gibt die Anzahl der richtigen Wortpaaren zurück.
+	 */
 	public int getErrateneWortpaare() {
 		return this.errateneWortpaare;
 	}
 
+	/**
+	 * Gibt die Anzahl an Fehlern zurück.
+	 * @return gibt die Anzahl der Fehler zurück.
+	 */
 	public int getFehler() {
 		return this.fehler;
 	}

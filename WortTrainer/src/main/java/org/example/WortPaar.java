@@ -15,10 +15,18 @@ public class WortPaar {
 		this.wort = wort;
 	}
 
+	/**
+	 * Gibt die Url des Bildes Wortpaars zurück.
+	 * @return gibt die Url zurück.
+	 */
 	public String getURL() {
 		return this.url;
 	}
 
+	/**
+	 * Gibt das Wort des Wortpaars zurück.
+	 * @return gibt das Wort zurück.
+	 */
 	public String getWort() {
 		return this.wort;
 	}

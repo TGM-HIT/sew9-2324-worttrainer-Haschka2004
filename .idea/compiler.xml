@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="WortTrainer" target="21" />
-      <module name="WortTrainer.main" target="21" />
-      <module name="WortTrainer.test" target="21" />
+      <module name="WortTrainer" target="17" />
+      <module name="WortTrainer.main" target="17" />
+      <module name="WortTrainer.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
